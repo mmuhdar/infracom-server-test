@@ -1,6 +1,7 @@
 const error = (err, req, res, next) => {
   let code;
   let message;
+
   switch (err.name) {
     case "SequelizeValidationError":
       const errors = err.errors.map((el) => el.message);

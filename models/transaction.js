@@ -8,15 +8,15 @@ module.exports = (sequelize, DataTypes) => {
   }
   Transaction.init(
     {
-      invoice: {
+      transaction_code: {
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
           notEmpty: {
-            msg: "Invoice required",
+            msg: "Transaction code required",
           },
           notNull: {
-            msg: "Input cannot be null",
+            msg: "Transaction code cannot be null",
           },
         },
       },
@@ -50,7 +50,17 @@ module.exports = (sequelize, DataTypes) => {
           },
         },
       },
-      status: DataTypes.STRING,
+      status: {
+        type: DataTypes.STRING,
+        validate: {
+          notEmpty: {
+            msg: "status required",
+          },
+          isAlpha: {
+            msg: "Input must be string",
+          },
+        },
+      },
       ItemId: {
         type: DataTypes.INTEGER,
         allowNull: false,

@@ -8,7 +8,7 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
-      invoice: {
+      transaction_code: {
         type: Sequelize.STRING,
       },
       price: {
@@ -19,7 +19,7 @@ module.exports = {
       },
       status: {
         type: Sequelize.STRING,
-        defaultsTo: "unpaid",
+        defaultValue: "unpaid",
       },
       ItemId: {
         type: Sequelize.INTEGER,
