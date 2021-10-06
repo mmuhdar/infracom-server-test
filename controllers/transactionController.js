@@ -4,7 +4,7 @@ class Controller {
   static async getAll(_, res, next) {
     try {
       const data = await Transaction.getAll();
-      res.status(200).json(data);
+      throw { name: "NotFound" };
     } catch (err) {
       next(err);
     }
