@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Asus ROG Phone 3",
+    "price": 8999000,
+    "stock": 120,
+    "imageURL": "https://images.tokopedia.net/img/cache/700/product-1/2020/8/18/5138814/5138814_9aadb765-6e66-4078-b58d-8c666ce7a3ec_700_700"
+  },
+  {
+    "name": "Iphone 12 Pro Max",
+    "price": 17850000,
+    "stock": 85,
+    "imageURL": "https://cdn.eraspace.com/pub/media/catalog/product/i/p/iphone_12_pro_max_gold_1_4.jpg"
+  },
+  {
+    "name": "Samsung S21 Ultra",
+    "price": 15899000,
+    "stock": 100,
+    "imageURL": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//92/MTA-13070349/samsung_samsung_galaxy_s21_ultra_full02_gvb48yz2.jpg"
+  },
+  {
+    "name": "Xiaomi Mi 11 Ultra",
+    "price": 17212000,
+    "stock": 140,
+    "imageURL": "https://i01.appmifile.com/webfile/globalimg/id/cms/00B843DD-862A-634D-2D11-9DD1D00A7AC9.jpg"
+  },
+  {
+    "name": "Huawei P30 Pro",
+    "price": 10499000,
+    "stock": 75,
+    "imageURL": "https://kliknklik.com/133996-thickbox_default/huawei-p30-pro-8256gb.jpg"
+  },
+  {
+    "name": "Google Pixel 5a",
+    "price": 14499000,
+    "stock": 45,
+    "imageURL": "https://m.media-amazon.com/images/I/7199N-Uz2AL._AC_SL1500_.jpg"
+  }
+]
